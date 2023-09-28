@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "bbec3166-ec68-4870-a908-196c744ede00",
+		"name": "toolbox",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16477015",
+		"_collection_link": "https://ozon-dev.postman.co/workspace/Team-Workspace~f7ef3b06-d7b5-45be-8d46-32033bc3b337/collection/16477015-bbec3166-ec68-4870-a908-196c744ede00?action=share&source=collection_link&creator=16477015"
+	},
+	"item": [
+		{
+			"name": "getFiles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3500/files/data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3500",
+					"path": [
+						"files",
+						"data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getFileByFileName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3500/files/data?fileName=test3.csv",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3500",
+					"path": [
+						"files",
+						"data"
+					],
+					"query": [
+						{
+							"key": "fileName",
+							"value": "test3.csv"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getFilesList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3500/files/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3500",
+					"path": [
+						"files",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Hello!",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3500",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3500"
+				}
+			},
+			"response": []
+		}
+	]
+}
