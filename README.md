@@ -24,5 +24,8 @@ Para construir y correr la aplicación usando Docker, puedes utilizar los siguie
 
 ```bash
 docker build -t toolbox-api .
-docker run -p 3500:3500 toolbox-api
+docker run -p 80:80 toolbox-api
+```
+```bash
+docker-compose up --build
 ```
